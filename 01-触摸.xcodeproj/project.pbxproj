@@ -15,6 +15,9 @@
 		CC8315E41C1AB1F100926D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8315E21C1AB1F100926D12 /* LaunchScreen.storyboard */; };
 		CC8315EF1C1AB1F100926D12 /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8315EE1C1AB1F100926D12 /* _1___Tests.m */; };
 		CC8315FA1C1AB1F100926D12 /* _1___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8315F91C1AB1F100926D12 /* _1___UITests.m */; };
+		CC83160B1C1AB3AF00926D12 /* CyanSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8316081C1AB3AF00926D12 /* CyanSquare.png */; };
+		CC83160C1C1AB3AF00926D12 /* MagentaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8316091C1AB3AF00926D12 /* MagentaSquare.png */; };
+		CC83160D1C1AB3AF00926D12 /* YellowSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CC83160A1C1AB3AF00926D12 /* YellowSquare.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CC8315F51C1AB1F100926D12 /* 01-触摸UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-触摸UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8315F91C1AB1F100926D12 /* _1___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___UITests.m"; sourceTree = "<group>"; };
 		CC8315FB1C1AB1F100926D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8316081C1AB3AF00926D12 /* CyanSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanSquare.png; sourceTree = "<group>"; };
+		CC8316091C1AB3AF00926D12 /* MagentaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaSquare.png; sourceTree = "<group>"; };
+		CC83160A1C1AB3AF00926D12 /* YellowSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSquare.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		CC8315D41C1AB1F000926D12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8316071C1AB3AF00926D12 /* materials */,
 				CC8315D51C1AB1F000926D12 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +145,16 @@
 				CC8315FB1C1AB1F100926D12 /* Info.plist */,
 			);
 			path = "01-触摸UITests";
+			sourceTree = "<group>";
+		};
+		CC8316071C1AB3AF00926D12 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CC8316081C1AB3AF00926D12 /* CyanSquare.png */,
+				CC8316091C1AB3AF00926D12 /* MagentaSquare.png */,
+				CC83160A1C1AB3AF00926D12 /* YellowSquare.png */,
+			);
+			path = materials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8315E41C1AB1F100926D12 /* LaunchScreen.storyboard in Resources */,
+				CC83160B1C1AB3AF00926D12 /* CyanSquare.png in Resources */,
 				CC8315E11C1AB1F100926D12 /* Assets.xcassets in Resources */,
 				CC8315DF1C1AB1F100926D12 /* Main.storyboard in Resources */,
+				CC83160D1C1AB3AF00926D12 /* YellowSquare.png in Resources */,
+				CC83160C1C1AB3AF00926D12 /* MagentaSquare.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
